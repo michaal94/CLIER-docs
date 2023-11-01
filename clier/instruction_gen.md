@@ -111,3 +111,16 @@ Instructions are generated based on templates. We show an example of template wi
 - **NOT_TP** - requires target object not to occupy given table part, both provided as target tokens, used to assure that when asking to move object to another table part, it is not already there
 - **TP_SET** - requires the set of objects on the given table part to share given property, \eg all objects on the table part related to the given token have to be pickupable
 - **IN** - requires given object target to be included in the given list of the second target, e.g. if one created a field in object structure with the list of objects that can be contained within
+
+## Example instructions
+We provide some example instructions corresponding to tasks we proposed in SHOP-VRB2:
+- *Measure the weight of the OBJ1.* - Measure the weight of the yellow plastic object. 
+- *What is the weight of all OBJ1s?* - What is the weight of all blue objects?. 
+- *Pick up the WS1 of all OBJ1s.* - Pick up the heaviest of all bowls. 
+- *Place the OBJ1 on the TP1 part of the table.* - Place the green mug on the left part of the table. 
+- *Remove all OBJ1s from the TP1 part of the table.* - Remove all plastic objects from the right part of the table. 
+- *Place the WS1 of all OBJ1s on the TP1 part of the table.* - Place the lightest of all prismatic objects on the left part of the table. 
+- *Stack the OBJ1 on top of the OBJ2.* - Stack the cylindrical object on top of the box. 
+- *Place the WS1 of all OBJ1s on top of the OBJ2.* - Place the heaviest of all hemispheres on top of the green object.
+- *Stack the OBJ1 on top of the OBJ2 on top of the OBJ3.* - Stack the mug on top of the red bowl on top of the prismatic object. 
+- *Stack all OBJ1s from heaviest to lightest.* - Stack all metal objects from heaviest to lightest. 
